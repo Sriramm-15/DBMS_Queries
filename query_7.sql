@@ -1,4 +1,4 @@
-Q7 Find the names of sailors who have reserved at least two boats.
+--Q7 Find the names of sailors who have reserved at least two boats.
 
 SELECT S.sname
 FROM Sailors S, Reserves R, Sailors S2, Reserves R2
