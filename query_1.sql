@@ -1,5 +1,4 @@
-Q1 Find the names of sailors who have reserved boat 103.
-
+--Q1 Find the names of sailors who have reserved boat 103.
 SELECT S.sname 
 FROM Sailors S, Reserves R
 WHERE S.sid = R.sid and R.bid=103
