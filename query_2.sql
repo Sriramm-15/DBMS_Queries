@@ -1,4 +1,4 @@
-Find the names of sailors who have reserved a red boat.
+--Q2.Find the names of sailors who have reserved a red boat.
 
 SELECT S.sname
 FROM Sailors S, Boats B, Reserves R
