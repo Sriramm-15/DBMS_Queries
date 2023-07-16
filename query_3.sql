@@ -1,4 +1,4 @@
- Find the colors of boats reserved by Lubber
+--Q3 Find the colors of boats reserved by Lubber
 
 SELECT B.color
 FROM Sailors S, Reserves R, Boats B
