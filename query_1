@@ -10,3 +10,9 @@ FROM Sailors S
 WHERE S.sid IN(SELECT R.sid
               FROM Reserves R 
               WHERE R.bid = 103 )
+/* output
+SNAME
+Dustin
+Lubber
+Horatio
+*/
