@@ -205,7 +205,7 @@ SELECT AVG(S.age)
 FROM Sailors S
 ```
 
-Q19 Find the name and age of the oldest sailor.
+Q19 a) Find the name and age of the oldest sailor.
 
 ```SQL
 SELECT S.sname, S.age
@@ -220,7 +220,7 @@ where S.age >= ALL(SELECT S2.age
                    FROM Sailors S2)
 ```
 
-Q19 Find the names of sailors who are older than the oldest sailor with a rating of 10.
+Q19 b) Find the names of sailors who are older than the oldest sailor with a rating of 10.
 
 ```sql
 SELECT S.sname
