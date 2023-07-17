@@ -10,9 +10,9 @@ WHERE S.sid IN ( SELECT R.sid
                  FROM Reserves R
                  WHERE R.bid IN(SELECT B.bid
                                 FROM Boats B
-                                WHERE B.color = ‘red’ )
+                                WHERE B.color = 'red')
 /*Output
-SN
+SNAME
 Dustin
 Dustin
 Lubber
